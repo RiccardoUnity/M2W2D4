@@ -12,6 +12,8 @@ public class Esercizio2 : MonoBehaviour
         {
             _somma += index[i];
             _prodotto *= index[i];
+            if (i == 1)
+                break;
         }
         Debug.Log("Somma: " + _somma);
         Debug.Log("Prodotto: " + _prodotto);

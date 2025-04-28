@@ -10,7 +10,7 @@ public class Esercizio6 : MonoBehaviour
 
         for (int i = 0; i < 21; i++)
         {
-            _array[i] = Random.Range(0, 100);
+            _array[i] = Random.Range(0, 100) + 1;
         }
         return _array;
     }

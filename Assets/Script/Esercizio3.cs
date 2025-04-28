@@ -7,7 +7,7 @@ public class Esercizio3 : MonoBehaviour
     private void Ciclo()
     {
         
-        for (int i = 1; i < 30; i++)   //Sembra strano, ma la consegna chiede di partire da 1
+        for (int i = 1; i <= 30; i++)   //Sembra strano, ma la consegna chiede di partire da 1
         {
             if (numero % 3 == 0 && numero % 5 == 0)
                 Debug.Log("FizzBuzz");
